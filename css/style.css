@@ -34,7 +34,7 @@ span{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 1.4rem;
     cursor: pointer;
     
 }
@@ -72,17 +72,17 @@ justify-content: space-between;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 1.4rem;
     color: var(--scolor);
 }
 
 h1{
-    font-size: 45px;
+    font-size: 1.5rem;
     color: var(--fcolor);
 }
 
 h5{
-    font-size: 20px;
+    font-size: 1.4rem;
     color: var(--scolor);
 }
 .textt{
