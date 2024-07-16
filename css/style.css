@@ -89,7 +89,13 @@ h5{
     position: relative;
     bottom: 70px;
 }
+
+
 .cimage{
+    display: flex;
+            justify-content: flex-end; 
+}
+.mypic{
     width: 45%;
     height: 90%;
     position: relative;
