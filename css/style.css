@@ -6,44 +6,47 @@
     --fcolor: #FFBBA7;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
+html{
     font-family: "Amiri", serif;
     font-size: 16px;
     color: var(--scolor);
     text-align: right;
 }
 
-.home {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--bcolor);
+.home{
+     width: 100%;
+     height: 100vh;
+     background-color: var(--bcolor);
     display: flex;
     flex-direction: column;
+
 }
 
-span {
+span{
     color: var(--primarycolor);
-    font-family: "Baskervville SC", serif;
+    font-family:"Baskervville SC", serif;
 }
 
-h2 {
+h2{
     font-size: 30px;
     cursor: pointer;
+    
 }
-
-nav {
+nav{
+    
     padding-top: 2.2rem;
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 nav ul li {
@@ -51,50 +54,47 @@ nav ul li {
     display: inline;
     margin: 0.8rem 1rem;
 }
-
-nav ul li a {
+nav ul li a{
     color: var(--primarycolor);
     text-decoration: none;
     transition: 0.4s;
 }
-
-nav ul li a:hover {
+nav ul li a:hover{
     color: var(--fcolor);
 }
+.contant{
+flex-grow: 1;
+padding: 8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
 
-.contant {
-    flex-grow: 1;
-    padding: 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-h3 {
+h3{
     font-size: 30px;
     color: var(--scolor);
 }
 
-h1 {
+h1{
     font-size: 45px;
     color: var(--fcolor);
 }
 
-h5 {
+h5{
     font-size: 20px;
     color: var(--scolor);
 }
-
-.textt {
+.textt{
     position: relative;
     bottom: 70px;
 }
 
-.cimage {
-    order: -1; /* لضمان أن الصورة تأتي قبل النص في التخطيط المرن */
-}
 
-.mypic {
+.cimage{
+    order: -1;
+}
+.mypic{
     width: 60%;
     height: 100%;
     position: relative;
