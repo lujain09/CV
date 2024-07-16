@@ -19,7 +19,7 @@ html{
 }
 
 .home{
-     width: 100%;
+     width: 100vh;
      height: 100vh;
      background-color: var(--bcolor);
 }
