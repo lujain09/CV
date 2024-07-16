@@ -40,14 +40,16 @@ h2{
     
 }
 nav{
-    background-color: #FFBBA7;
-
+    background: rgba(255, 187, 167, 0.5); 
+    backdrop-filter: blur(10px); 
+    border-radius: 15px; 
     padding-top: 2.2rem;
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    
 }
 
