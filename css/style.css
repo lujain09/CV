@@ -43,9 +43,9 @@ nav{
     background: rgba(255, 187, 167, 0.5); 
     backdrop-filter: blur(10px); 
     border-radius: 15px; 
-    padding-top: 2.2rem;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-top: 0.2rem;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
