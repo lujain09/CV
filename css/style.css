@@ -92,6 +92,5 @@ h5{
 .cimage{
     width: 45%;
     height: 90%;
-    float: right;
-   
+    position: relative;
 }
