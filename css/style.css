@@ -40,7 +40,8 @@ h2{
     
 }
 nav{
-    
+    background-color: #FFBBA7;
+
     padding-top: 2.2rem;
     padding-left: 8%;
     padding-right: 8%;
@@ -54,7 +55,7 @@ nav ul li {
     list-style-type: none;
     display: inline;
     margin: 0.8rem 1rem;
-    background-color: #FFBBA7;
+    
 }
 nav ul li a{
     color: var(--primarycolor);
