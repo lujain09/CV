@@ -41,5 +41,10 @@ nav{
     padding-right: 8%;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
 }
