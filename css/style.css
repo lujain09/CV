@@ -40,9 +40,9 @@ h2{
 }
 nav{
     
-    padding-top: 2.2rem;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-top: 0.4rem;
+    padding-left: 4%;
+    padding-right: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,7 +95,7 @@ h5{
     order: -1;
 }
 .mypic{
-    width: 60%;
+    width: 100%;
     height: 100%;
     position: relative;
 }
