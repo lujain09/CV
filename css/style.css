@@ -33,7 +33,7 @@ span{
 h2{
     font-size: 30px;
     cursor: pointer;
-    text-align: right;
+    
 }
 nav{
     
@@ -43,11 +43,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: right;
+   
 }
 
 nav ul li {
     list-style-type: none;
     display: inline;
-
+    margin: 2;
 }
