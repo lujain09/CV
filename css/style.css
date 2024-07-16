@@ -93,7 +93,7 @@ h5{
 
 .cimage{
     display: flex;
-            justify-content: flex-start; 
+            justify-content:left;
 }
 .mypic{
     width: 45%;
