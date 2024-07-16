@@ -68,7 +68,7 @@ flex-grow: 1;
 padding: 8%;
 display: flex;
 align-items: center;
-justify-content: flex-end;
+
 }
 
 h3{
@@ -93,7 +93,7 @@ h5{
 
 .cimage{
     display: flex;
-            justify-content:left;
+    align-items: center;    
 }
 .mypic{
     width: 45%;
