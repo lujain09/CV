@@ -77,3 +77,8 @@ h1{
     font-size: 45px;
     color: var(--tcolor);
 }
+
+h5{
+    font-size: 25px;
+    color: var(--scolor);
+}
