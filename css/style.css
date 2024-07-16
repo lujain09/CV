@@ -75,10 +75,10 @@ h3{
 
 h1{
     font-size: 45px;
-    color: var(--tcolor);
+    color: var(--fcolor);
 }
 
 h5{
-    font-size: 25px;
+    font-size: 20px;
     color: var(--scolor);
 }
