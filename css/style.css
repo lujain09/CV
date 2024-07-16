@@ -41,5 +41,5 @@ nav{
     padding-right: 8%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
