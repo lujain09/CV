@@ -19,7 +19,7 @@ html{
 }
 
 .home{
-     width: 100%;
+     width: fit-content;
      height: 100vh;
      background-color: #FFF0E0;
 }
