@@ -102,20 +102,26 @@ h5{
 
 @media (max-width: 768px) {
     .contant {
-        flex-direction: column;
+        flex-direction: row; 
         align-items: center;
+        justify-content: space-between; 
     }
 
     .cimage {
-        text-align: center; 
-        margin: 0; 
+        text-align: left;
+        margin-right: 4%; 
+        order: 1; 
+    }
+
+    .textt {
+        text-align: right; 
+        order: 2; 
     }
 
     .mypic {
-        width: 80%;
+        width: 45%;
     }
 }
-
 
 @media (max-width: 480px) {
     .contant {
@@ -126,9 +132,15 @@ h5{
     .cimage {
         text-align: center; 
         margin: 0; 
+        order: 1; 
     }
 
+    .textt {
+        text-align: center; 
+        order: 2; 
+
     .mypic {
-        width: 100%;
+        width: 100%; 
+    }
     }
 }
