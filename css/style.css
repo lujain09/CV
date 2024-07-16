@@ -65,4 +65,15 @@ nav ul li a:hover{
 }
 .contant{
 flex-grow: 1;
+padding: 8%;
+}
+
+h3{
+    font-size: 30px;
+    color: var(--scolor);
+}
+
+h1{
+    font-size: 45px;
+    color: var(--tcolor);
 }
