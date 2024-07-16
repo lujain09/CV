@@ -84,3 +84,7 @@ h5{
     font-size: 20px;
     color: var(--scolor);
 }
+.textt{
+    position: relative;
+    bottom: 70px;
+}
