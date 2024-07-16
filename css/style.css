@@ -48,6 +48,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   
+   
 }
 
 nav ul li {
@@ -90,33 +92,29 @@ h5 {
 }
 
 .textt {
-    position: relative;
-    bottom: 70px;
+    text-align: right; 
 }
 
 .cimage {
-    order: -1; 
+    text-align: left; 
+    margin-right: 4%; 
 }
 
 .mypic {
     width: 60%;
-    height: 100%;
-    position: relative;
+    height: auto;
 }
 
 
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    nav ul li {
-        margin: 0.6rem 0.8rem;
-    }
-
     .contant {
         flex-direction: column;
         align-items: center;
+    }
+
+    .cimage {
+        text-align: center; 
+        margin: 0; 
     }
 
     .mypic {
@@ -126,17 +124,14 @@ h5 {
 
 
 @media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-
-    nav ul li {
-        margin: 0.4rem 0.6rem;
-    }
-
     .contant {
         flex-direction: column;
         align-items: center;
+    }
+
+    .cimage {
+        text-align: center; 
+        margin: 0; 
     }
 
     .mypic {
