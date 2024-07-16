@@ -93,7 +93,8 @@ h5{
 
 .cimage{
     display: flex;
-    align-items: center;    
+    align-items: last baseline;   
+
 }
 .mypic{
     width: 45%;
