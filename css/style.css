@@ -28,3 +28,9 @@ html{
 span{
     color: #004921;
 }
+h1 {
+    text-align: right;
+}
+h1 span {
+    margin-left: 10px; 
+}
