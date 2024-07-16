@@ -28,6 +28,7 @@ html{
 
 span{
     color: var(--tcolor);
+    font-family: "Bona Nova SC", serif;
 }
 
 h2{
