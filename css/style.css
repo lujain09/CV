@@ -39,14 +39,13 @@ h2{
     
 }
 nav{
-    
-    padding-top: 0.8rem;
+    background-color: #615d5d9f;
+    padding-top: 1rem;
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 
 nav ul li {
