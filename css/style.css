@@ -77,14 +77,13 @@ h3{
 }
 
 h1{
-    font-size: 4.40rem;
+    font-size: 4rem;
     color: var(--fcolor);
 }
 
 h5{
     font-size: 1.2rem;
     color: var(--tcolor);
-
 }
 .textt{
     text-align: right;
@@ -99,7 +98,6 @@ h5{
 .mypic{
     width: 60%;
     height: 100%;
-    position: relative;
 }
 
 @media (max-width: 768px) {
