@@ -87,7 +87,8 @@ h5{
 
 }
 .textt{
-    
+    text-align: right;
+
     bottom: 70px;
 }
 
@@ -97,7 +98,7 @@ h5{
     text-align: left; 
 }
 .mypic{
-    width: 60%;
+    width: 70%;
     height: 100%;
     position: relative;
 }
