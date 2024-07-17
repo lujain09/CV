@@ -86,8 +86,11 @@ h5{
     color: var(--tcolor);
 }
 .textt{
+    
     text-align: right;
     bottom: 70px;
+    width: 100%; 
+
 }
 
 
