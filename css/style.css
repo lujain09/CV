@@ -82,8 +82,9 @@ h1{
 }
 
 h5{
-    font-size: 1.4rem;
-    color: var(--scolor);
+    font-size: 1.2rem;
+    color: var(--tcolor);
+
 }
 .textt{
     position: relative;
