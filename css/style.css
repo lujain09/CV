@@ -177,6 +177,7 @@ h5{
 .cimage{
     order: -1;
     text-align: left; 
+    width: 50%;
 }
 .mypic{
     width: 80%;
