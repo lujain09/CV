@@ -18,7 +18,7 @@
     --tcolor: #DDDDDD;
     --bcolor: #333333;
     --fcolor: #EDEDED;
-    background-color: var(--bcolor);
+    background-color: var(--tcolor);
     color: var(--scolor);
 }
 
