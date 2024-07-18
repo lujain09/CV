@@ -63,7 +63,6 @@ nav ul li a:hover{
 }
 .contant{
 flex-grow: 1;
-padding: 1.5rem 2rem;
 display: flex;
 align-items: center;
 }
