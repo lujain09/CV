@@ -95,20 +95,6 @@ nav{
     color: var(--fcolor); 
 }
 
-
-.navbar-nav .btn-dark {
-    font-family: "Amiri", serif; 
-    color: var(--bcolor); 
-    background-color: var(--primarycolor); 
-    border: none;
-    border-radius: 50px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navbar-nav .btn-dark:hover {
-    background-color: var(--fcolor); 
-    color: var(--primarycolor); 
-}
 nav ul li {
     list-style-type: none;
     display: inline;
