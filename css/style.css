@@ -63,10 +63,10 @@ nav ul li a:hover{
 }
 .contant{
 flex-grow: 1;
-padding-top: 8%;
 padding: 8%;
 display: flex;
 align-items: center;
+
 }
 
 h3{
@@ -89,7 +89,26 @@ h5{
     bottom: 70px;
     width: 80%; 
 }
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 
+.social-icons a {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
 
 .cimage{
     order: -1;
@@ -123,6 +142,7 @@ h5{
    
     }
 }
+
 
 @media (max-width: 480px) {
     .contant {
