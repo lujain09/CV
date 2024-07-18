@@ -65,9 +65,7 @@ nav ul li a:hover{
 flex-grow: 1;
 padding: 8%;
 display: flex;
-margin: 0 auto;
-text-align: center;
-
+align-items: center;
 }
 
 h3{
