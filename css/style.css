@@ -18,9 +18,10 @@
     --tcolor: #DDDDDD;
     --bcolor: #333333;
     --fcolor: #EDEDED;
-    background-color: var(--fcolor);
-    color: var(--tcolor);
+    background-color: var(--bcolor);
+    color: var(--scolor);
 }
+
 
 html{
     font-family: "Amiri", serif;
