@@ -44,7 +44,7 @@ h1 {
 }
 
 .A{
-    color: var(--primarycolor);
+    color: var(--fcolor);
     font-family:"Baskervville SC", serif;
     font-size: 1.80rem;
     font-weight: 600;
@@ -97,20 +97,14 @@ align-items: center;
 
 }
 
-h3{
-    font-size: 1.60rem;
-    color: var(--scolor);
-}
+
 
 h1{
     font-size: 3rem;
     color: var(--fcolor);
 }
 
-h5{
-    font-size: 1.2rem;
-    color: var(--tcolor);
-}
+
 .textt{
     
     text-align: right;
