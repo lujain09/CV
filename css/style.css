@@ -132,7 +132,24 @@ h5{
     width: 1.5rem;
     height: 1.5rem;
 }
+.download-button {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.download-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primarycolor);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button a:hover {
+    background-color: var(--scolor);
+}
 .cimage{
     order: -1;
     text-align: left; 
