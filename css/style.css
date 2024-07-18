@@ -26,16 +26,30 @@ html{
     display: flex;
     flex-direction: column;
 }
-
-span{
-    color: var(--primarycolor);
-    font-family:"Baskervville SC", serif;
+@keyframes fadeInMove {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-h2{
+h1 span {
+    display: inline-block;
+    animation: fadeInMove 2s ease-in-out forwards;
+}
+
+h1 span{
+    color: var(--primarycolor);
+    font-family:"Baskervville SC", serif;
     font-size: 1.80rem;
     cursor: pointer;
 }
+
+
 nav{
     background-color: #EDEDED;
     border-bottom: 1px solid  var(--fcolor);
