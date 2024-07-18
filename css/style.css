@@ -53,7 +53,7 @@ h1 {
 
 .one{
  font-size: 2rem;
- color: var(--scolor);
+ color: var(--primarycolor);
 }
 .sec{
     font-size: 1.5rem;
