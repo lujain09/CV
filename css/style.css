@@ -54,7 +54,7 @@ h1 {
 }
 
 
-.navbar-brand.A {
+.A {
     color: var(--fcolor);
     font-family:"Baskervville SC", serif;
     cursor: pointer;
@@ -86,16 +86,6 @@ nav{
     align-items: center;
 }
 
-.navbar-nav .nav-link {
-    font-family: "Amiri", serif; 
-    color: var(--fcolor); 
-    font-size: 1.2rem; 
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-    color: var(--primarycolor); 
-}
 
 nav ul li {
     list-style-type: none;
