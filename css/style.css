@@ -86,13 +86,13 @@ nav{
 
 .navbar-nav .nav-link {
     font-family: "Amiri", serif; 
-    color: var(--primarycolor); 
+    color: var(--fcolor); 
     font-size: 1.2rem; 
     transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-    color: var(--fcolor); 
+    color: var(--primarycolor); 
 }
 
 nav ul li {
