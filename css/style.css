@@ -22,7 +22,7 @@
 }
 .dark-mode-toggle {
     background-color: rgba(0, 0, 0, 0.1);
-    color: #ff69b4;
+    color: #f0c3da;
     border: 2px solid #ff69b4;
     border-radius: 50px;
     padding: 10px 20px;
@@ -34,7 +34,7 @@
 }
 
 .dark-mode-toggle:hover {
-    background-color: #ff69b4;
+    background-color: #f7cde2;
     color: white;
     border-color: white;
 }
