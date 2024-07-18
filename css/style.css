@@ -66,9 +66,7 @@ flex-grow: 1;
 padding: 8%;
 display: flex;
 align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+
 }
 
 h3{
