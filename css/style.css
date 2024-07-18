@@ -85,6 +85,7 @@ nav ul li a:hover{
     color: var(--fcolor);
 }
 .contant{
+    background-color: #f9bebe;
 flex-grow: 1;
 padding: 8%;
 padding-top: 10%;
