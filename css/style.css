@@ -53,12 +53,13 @@ h1 {
     animation: fadeInMove 2s ease-in-out forwards;
 }
 
-.A {
+
+.navbar-brand.A {
     color: var(--fcolor);
     font-family:"Baskervville SC", serif;
     cursor: pointer;
     font-size: 4rem; 
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .one{
