@@ -42,7 +42,7 @@ h1 {
     animation: fadeInMove 2s ease-in-out forwards;
 }
 
-h1 span{
+.A{
     color: var(--primarycolor);
     font-family:"Baskervville SC", serif;
     font-size: 1.80rem;
