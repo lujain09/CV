@@ -18,8 +18,8 @@
     --tcolor: #DDDDDD;
     --bcolor: #333333;
     --fcolor: #EDEDED;
-    background-color: var(--tcolor);
-    color: var(--scolor);
+    background-color: var(--fcolor);
+    color: var(--tcolor);
 }
 
 html{
