@@ -36,7 +36,7 @@ h2{
     font-size: 1.80rem;
     cursor: pointer;
 }
-header .navbar{
+nav{
     background-color: #ffffff9f;
     border-bottom: 1px solid  var(--fcolor);
     position: fixed;
