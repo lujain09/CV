@@ -2,7 +2,7 @@
     --primarycolor: #004D8B;
     --scolor: #00A4D2;
     --tcolor: #faafaf;
-    --bcolor: #EDEDED;
+    --bcolor: #f9d5d5;
     --fcolor: #3E0817;
 }
 
@@ -133,7 +133,7 @@ h5{
     height: 1.5rem;
 }
 .download-button {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: right;
 }
 
