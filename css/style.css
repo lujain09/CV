@@ -1,8 +1,8 @@
 :root {
     --primarycolor: #004D8B;
     --scolor: #00A4D2;
-    --tcolor: #ccebf6;
-    --bcolor: #f9bebe;
+    --tcolor: #f9bebe;
+    --bcolor: #ccebf6;
     --fcolor: #3E0817;
 }
 
@@ -61,7 +61,7 @@ h1 {
 }
 
 nav{
-    background-color: #aa6f6fa2;
+    background-color: var(--bcolor);
     border-bottom: 1px solid  var(--fcolor);
     position: fixed;
     width: 100%;
