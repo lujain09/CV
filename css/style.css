@@ -101,10 +101,10 @@ nav ul li a:hover{
 .contant{
 
 flex-grow: 1;
-
 padding-top: 10%;
 height: 100%;
-
+display: flex;
+text-align: center;
 
 }
 
