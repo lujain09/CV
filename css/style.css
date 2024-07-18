@@ -37,7 +37,7 @@ h2{
     cursor: pointer;
 }
 nav{
-    background-color: #ffffff9f;
+    background-color: #EDEDED;
     border-bottom: 1px solid  var(--fcolor);
     position: fixed;
     width: 100%;
