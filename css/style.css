@@ -64,6 +64,8 @@ nav{
     background-color: var(--bcolor);
     border-bottom: 1px solid  var(--fcolor);
     position: fixed;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 100%;
     padding: 1rem 3rem;
     display: flex;
@@ -88,7 +90,7 @@ nav ul li a:hover{
 .contant{
 
 flex-grow: 1;
-padding: 15%;
+padding: 10%;
 padding-top: 10%;
 height: 100%;
 
