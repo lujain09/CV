@@ -53,12 +53,12 @@ h1 {
     animation: fadeInMove 2s ease-in-out forwards;
 }
 
-.A{
+.A {
     color: var(--fcolor);
     font-family:"Baskervville SC", serif;
-    font-size: 1.80rem;
-    font-weight: 600;
     cursor: pointer;
+    font-size: 2rem; 
+    font-weight: 700; 
 }
 
 .one{
