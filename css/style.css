@@ -140,18 +140,37 @@ h5{
 .download-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: transparent;
-    color: var(--primarycolor);
+    background-color: var(--primarycolor);
+    color: white;
     text-decoration: none;
-    border: 2px solid var(--primarycolor);
+    border: none;
     border-radius: 50px; 
     transition: background-color 0.3s ease, color 0.3s ease;
-    font-size: 14px; 
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .download-button a:hover {
-    background-color: var(--primarycolor);
-    color: white;
+    background-color: var(--scolor);
+}
+
+.download-button a::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(255, 192, 203, 0.2); 
+    z-index: -1;
+    transition: transform 0.5s ease;
+    transform: translate(-30%, -30%) rotate(45deg);
+}
+
+.download-button a:hover::before {
+    transform: translate(-10%, -10%) rotate(45deg);
 }
 .cimage{
     order: -1;
