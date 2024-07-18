@@ -23,6 +23,7 @@
                <li><a href="#skills">مهاراتي</a></li>
                <li><a href="#contact">تواصل معي</a></li>
          </ul>
+         <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
      </nav>
   
 
@@ -54,5 +55,19 @@
     </div>
 </div>
     </section>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const letters = document.querySelectorAll('.letter');
+            letters.forEach((letter, index) => {
+                setTimeout(() => {
+                    letter.style.opacity = 1;
+                }, index * 100); 
+            });
+        });
+    </script>
 </body>
 </html>
