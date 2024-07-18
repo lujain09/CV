@@ -121,8 +121,8 @@ h1{
 .textt{
     
     text-align: right;
-    bottom: 10px;
-    width: 80%; 
+    margin: 0 auto;
+            bottom: 70px;
 }
 .social-icons {
     margin-top: 20px;
