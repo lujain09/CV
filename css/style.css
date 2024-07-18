@@ -50,6 +50,14 @@ h1 {
     cursor: pointer;
 }
 
+.one{
+ font-size: 2rem;
+ color: var(--scolor);
+}
+.sec{
+    font-size: 1.5rem;
+    color: var(--tcolor);
+}
 
 nav{
     background-color: #EDEDED;
