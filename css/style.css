@@ -2,7 +2,7 @@
     --primarycolor: #004D8B;
     --scolor: #00A4D2;
     --tcolor: #faafaf;
-    --bcolor: #f9d5d5;
+    --bcolor: #f9bebe;
     --fcolor: #3E0817;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 nav{
-    background-color: #EDEDED;
+    background-color: #aa6f6fa2;
     border-bottom: 1px solid  var(--fcolor);
     position: fixed;
     width: 100%;
