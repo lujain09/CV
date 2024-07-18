@@ -58,8 +58,8 @@ h1 {
     color: var(--fcolor);
     font-family:"Baskervville SC", serif;
     cursor: pointer;
-    font-size: 4rem; 
-    font-weight: 700;
+    font-size: 2rem; 
+    font-weight: 600;
 }
 
 .one{
