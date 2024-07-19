@@ -305,7 +305,7 @@ h1{
 }
 
 .skill-progress {
-    background-color: #ffb6c1; 
+    background-color: var(--scolor); 
     height: 30px;
     border-radius: 25px;
     position: absolute;
