@@ -85,7 +85,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    order: 1;
+  
 }
 
 
@@ -237,6 +237,51 @@ h1{
     margin: auto;
     padding: 2rem 2rem;
 
+}
+
+.skills {
+    padding: 2rem 1rem;
+}
+
+.skills-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.skill-bar {
+    background-color: var(--bcolor);
+    border-radius: 25px;
+    padding: 1rem;
+    color: var(--fcolor);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: var(--primarycolor);
+}
+
+.skill-bar.html {
+    width: 90%; 
+}
+
+.skill-bar.css {
+    width: 80%; 
+}
+
+.skill-bar.js {
+    width: 70%; 
+}
+
+.skill-bar.php {
+    width: 60%; 
 }
 
 @media (max-width: 768px) {
