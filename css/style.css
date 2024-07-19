@@ -279,6 +279,22 @@ h1{
     width: 100%; 
 }
 
+.html .skill-progress {
+    width: 95%;
+}
+
+.css .skill-progress {
+    width: 90%;
+}
+
+.js .skill-progress {
+    width: 65%;
+}
+
+.php .skill-progress {
+    width: 65%;
+}
+
 .skill-progress {
     background-color: #ffb6c1; 
     height: 30px;
