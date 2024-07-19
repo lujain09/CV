@@ -75,8 +75,9 @@ h1 {
 }
 
 nav{
-    background-color: var(--bcolor);
-    border-bottom: 1px solid  var(--fcolor);
+    background-color: var(--tcolor);
+    border-bottom: 1px solid  var(--tcolor);
+    box-shadow: #333333;
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
@@ -146,7 +147,7 @@ h1{
 }
 
 .social-icons img {
-    color: #f7c466;
+   
     width: 1.5rem;
     height: 1.5rem;
 }
