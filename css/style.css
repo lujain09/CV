@@ -17,8 +17,7 @@
     --tcolor: #DDDDDD;
     --bcolor: #333333;
     --fcolor: #EDEDED;
-    background-color: var(--bcolor);
-    color: var(--scolor);
+   
 }
 
 .dark-mode .dark-mode-toggle {
