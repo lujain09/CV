@@ -129,7 +129,7 @@ h1{
             bottom: 70px;
 }
 .social-icons {
-    color: #f7c466;
+    
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
@@ -146,6 +146,7 @@ h1{
 }
 
 .social-icons img {
+    color: #f7c466;
     width: 1.5rem;
     height: 1.5rem;
 }
