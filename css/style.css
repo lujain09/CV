@@ -19,6 +19,22 @@
     --fcolor: #EDEDED;
     background-color: var(--bcolor);
     color: var(--scolor);
+
+    
+}
+
+.dark-mode-toggle {
+    background-color: #ffb6c1; 
+    color: #333333;
+    border: 2px solid #ffb6c1; 
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; 
+    outline: none; 
 }
 
 .dark-mode .dark-mode-toggle{
