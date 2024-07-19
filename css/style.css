@@ -263,6 +263,22 @@ h1{
     overflow: hidden;
 }
 
+.skill-bar.html {
+    width: 95%; 
+}
+
+.skill-bar.css {
+    width: 90%; 
+}
+
+.skill-bar.js {
+    width: 65%; 
+}
+
+.skill-bar.php {
+    width: 65%; 
+}
+
 .skill-progress {
     background-color: #ffb6c1; 
     height: 30px;
