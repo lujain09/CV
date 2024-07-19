@@ -129,6 +129,7 @@ h1{
             bottom: 70px;
 }
 .social-icons {
+    color: #f7c466;
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
