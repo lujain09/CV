@@ -277,9 +277,16 @@ h1{
 }
 
 .skills {
-    padding: 2rem 1rem;
+  /*  padding: 2rem 1rem;
     background-color: rgba(255, 255, 255, 0.1); 
     border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;*/
+
+    padding: 2rem;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: left;
 }
