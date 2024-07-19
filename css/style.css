@@ -54,7 +54,7 @@ h1 {
 }
 
 
-.A {
+.home.container{
     color: var(--fcolor);
     font-family:"Baskervville SC", serif;
     cursor: pointer;
