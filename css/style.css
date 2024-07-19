@@ -93,7 +93,7 @@ h1 {
 
 nav{
     
-    background-color: var(--bcolor);
+    /*background-color: var(--bcolor);
     border-bottom: 1px solid  var(--tcolor);
     padding-left: 10%;
     padding-right: 10%;
@@ -102,7 +102,22 @@ nav{
     padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;*/
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    background-color: var(--bcolor);
+    border-bottom: 1px solid var(--tcolor);
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    position: fixed;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 
