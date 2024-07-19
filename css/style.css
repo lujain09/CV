@@ -270,7 +270,7 @@ h1{
 }
 
 .skill-bar.html {
-    width: 90%; 
+    width: 95%; 
 }
 
 .skill-bar.css {
@@ -278,11 +278,11 @@ h1{
 }
 
 .skill-bar.js {
-    width: 70%; 
+    width: 65%; 
 }
 
 .skill-bar.php {
-    width: 60%; 
+    width: 65%; 
 }
 
 @media (max-width: 768px) {
