@@ -252,7 +252,7 @@ h1{
 }
 
 .skill-bar {
-    background-color: var(--fcolor);
+    background-color: var(--tcolor);
     border-radius: 25px;
     padding: 1rem;
     position: relative;
