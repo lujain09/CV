@@ -49,6 +49,7 @@ html{
 }
 
 h1 {
+    font-family: "Amiri", serif; 
     display: inline-block;
     animation: fadeInMove 2s ease-in-out forwards;
 }
