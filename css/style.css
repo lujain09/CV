@@ -207,6 +207,7 @@ h1{
     padding: 20px;
     margin: 20px;
     backdrop-filter: blur(10px); 
+    text-align: left;
 }
 
 .about h1 {
