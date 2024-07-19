@@ -27,8 +27,8 @@
     background-color: var(--tcolor);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     color: #282424;
-    border: 0.5px solid #13102e; 
-    border-radius: 10px; 
+    border: 0.5px solid var(--tcolor); 
+    border-radius: 5px; 
     padding: 5px 5px; 
     font-size: 0.5rem; 
     text-transform: uppercase; 
