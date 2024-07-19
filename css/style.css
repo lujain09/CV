@@ -24,7 +24,8 @@
 }
 
 .dark-mode-toggle {
-    background-color: #ffb6c1; 
+    background-color: #ffb6c1;
+    box-shadow: #333333; 
     color: #282424;
     border: 2px solid #ffb6c1; 
     border-radius: 25px; 
