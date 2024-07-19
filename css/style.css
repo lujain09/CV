@@ -75,9 +75,8 @@ h1 {
 }
 
 nav{
-    background-color: var(--tcolor);
+    background-color: var(--bcolor);
     border-bottom: 1px solid  var(--tcolor);
-    box-shadow: #333333;
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
