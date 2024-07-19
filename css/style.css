@@ -78,9 +78,6 @@ h1 {
 
 nav{
     
-    border-radius: 15px; 
-   
-   
     background-color: var(--bcolor);
     border-bottom: 1px solid  var(--tcolor);
     padding-left: 10%;
@@ -91,7 +88,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
 }
 
 
