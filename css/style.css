@@ -21,9 +21,33 @@
     color: var(--scolor);
 }
 
+.dark-mode .dark-mode-toggle {
+    background-color: #ffb6c1; 
+    color: #333333;
+    border: 2px solid #ffb6c1; 
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+    outline: none; 
+}
 
 
+.dark-mode .dark-mode-toggle:hover {
+    background-color: #ff9aa2; 
+    color: #ffffff; 
+    border-color: #ff9aa2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 
+
+.dark-mode .dark-mode-toggle:focus {
+    border-color: #ff9aa2; 
+    box-shadow: 0 0 0 3px rgba(255, 154, 154, 0.5); 
+}
 
 
 html{
