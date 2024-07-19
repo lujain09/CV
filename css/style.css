@@ -241,7 +241,7 @@ h1{
 
 .skills {
     padding: 2rem 1rem;
-    text-align: left;
+    background-color: var(--bcolor);
 }
 
 .skills-bars {
@@ -251,38 +251,39 @@ h1{
 }
 
 .skill-bar {
-    background-color: var(--bcolor);
+    background-color: var(--fcolor);
     border-radius: 25px;
     padding: 1rem;
-    color: var(--fcolor);
     position: relative;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.skill-bar span {
+.skill-progress {
+    background-color: var(--scolor);
+    height: 30px;
+    border-radius: 25px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.skill-name {
     font-weight: bold;
     color: var(--primarycolor);
+    position: relative;
+    z-index: 2;
 }
 
-.skill-bar.html {
-    width: 95%; 
-}
-
-.skill-bar.css {
-    width: 80%; 
-}
-
-.skill-bar.js {
-    width: 65%; 
-}
-
-.skill-bar.php {
-    width: 65%; 
+.skill-percentage {
+    font-weight: bold;
+    color: var(--primarycolor);
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
 }
 
 @media (max-width: 768px) {
