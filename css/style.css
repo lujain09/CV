@@ -242,6 +242,7 @@ h1{
 .skills {
     padding: 2rem 1rem;
     background-color: var(--bcolor);
+    text-align: left;
 }
 
 .skills-bars {
